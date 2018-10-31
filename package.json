@@ -1,0 +1,38 @@
+{
+  "name": "archimonde",
+  "version": "0.0.1",
+  "description": "web utils",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lib": "rimraf lib/ && tsc",
+    "publish:prod": "npm run lib && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Perity2015/archimonde.git"
+  },
+  "keywords": [
+    "utils",
+    "web"
+  ],
+  "author": "yuchao2016",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Perity2015/archimonde/issues"
+  },
+  "homepage": "https://github.com/Perity2015",
+  "devDependencies": {
+    "@types/lodash": "^4.14.65",
+    "rimraf": "^2.6.1",
+    "source-map-loader": "^0.2.1",
+    "tslint": "^5.7.0",
+    "tslint-config-prettier": "^1.10.0",
+    "tslint-react": "^3.2.0",
+    "typescript": "^3.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1"
+  }
+}

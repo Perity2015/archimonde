@@ -1,0 +1,7 @@
+/src
+/node_modules
+/.idea
+/.gitignore
+/tsconfig.json
+/tslint.json
+*js.map
